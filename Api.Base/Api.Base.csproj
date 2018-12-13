@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <MvcRazorExcludeRefAssembliesFromPublish>false</MvcRazorExcludeRefAssembliesFromPublish>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\AppSettings\AppSettings.csproj" />
+    <ProjectReference Include="..\Modules\Plugin.Drivers\Api.Plugin.Drivers\Api.Plugin.Drivers.csproj" />
+    <ProjectReference Include="..\Modules\Plugin.Vehicles\Api.Plugin.Vehicles\Api.Plugin.Vehicles.csproj" />
+  </ItemGroup>
+
+</Project>

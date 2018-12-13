@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc.Base", "ModulerProject\Mvc.Base.csproj", "{B0E58116-AAAF-4814-B78F-3DB323A86BFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{CA5747EA-DEE1-4BD7-883A-088B4B4308B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B100B1E0-2BCD-41F4-96E1-318058841700}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppSettings", "Common\AppSettings\AppSettings.csproj", "{7534EEE6-9DB7-494C-8683-3BF64BA36C7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc.Plugin.Vehicles", "Modules\Plugin.Vehicles\Mvc.Plugin.Vehicles\Mvc.Plugin.Vehicles.csproj", "{E351E463-4454-4D7E-9741-6AD0C601CBBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc.Plugin.Drivers", "Modules\Plugin.Drivers\Mvc.Plugin.Drivers\Mvc.Plugin.Drivers.csproj", "{5FE9479B-3620-4075-A8C8-45D48F4CE7A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web UI", "Web UI", "{E280E22A-61AB-48B4-B539-AD5942B9F823}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugin.Vehicles", "Plugin.Vehicles", "{2202C9B9-56A3-4559-A675-0F70650CB227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugin.Drivers", "Plugin.Drivers", "{CBB309D6-7B39-4AC6-986C-C45499DB17FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{74A8F20E-402E-4FAB-8A0E-392ADA0E6837}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Base", "Api.Base\Api.Base.csproj", "{33B3D2CB-68EA-4F23-BE28-9EAE280749EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Plugin.Vehicles", "Modules\Plugin.Vehicles\Api.Plugin.Vehicles\Api.Plugin.Vehicles.csproj", "{D646755C-76E6-4172-9597-CA4E953068BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Plugin.Drivers", "Modules\Plugin.Drivers\Api.Plugin.Drivers\Api.Plugin.Drivers.csproj", "{BD513514-B99A-444F-B226-E7EEBAB5A6AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0E58116-AAAF-4814-B78F-3DB323A86BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E58116-AAAF-4814-B78F-3DB323A86BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E58116-AAAF-4814-B78F-3DB323A86BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E58116-AAAF-4814-B78F-3DB323A86BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7534EEE6-9DB7-494C-8683-3BF64BA36C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7534EEE6-9DB7-494C-8683-3BF64BA36C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7534EEE6-9DB7-494C-8683-3BF64BA36C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7534EEE6-9DB7-494C-8683-3BF64BA36C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E351E463-4454-4D7E-9741-6AD0C601CBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E351E463-4454-4D7E-9741-6AD0C601CBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E351E463-4454-4D7E-9741-6AD0C601CBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E351E463-4454-4D7E-9741-6AD0C601CBBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE9479B-3620-4075-A8C8-45D48F4CE7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE9479B-3620-4075-A8C8-45D48F4CE7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE9479B-3620-4075-A8C8-45D48F4CE7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE9479B-3620-4075-A8C8-45D48F4CE7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B3D2CB-68EA-4F23-BE28-9EAE280749EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B3D2CB-68EA-4F23-BE28-9EAE280749EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B3D2CB-68EA-4F23-BE28-9EAE280749EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B3D2CB-68EA-4F23-BE28-9EAE280749EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D646755C-76E6-4172-9597-CA4E953068BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D646755C-76E6-4172-9597-CA4E953068BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D646755C-76E6-4172-9597-CA4E953068BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D646755C-76E6-4172-9597-CA4E953068BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD513514-B99A-444F-B226-E7EEBAB5A6AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD513514-B99A-444F-B226-E7EEBAB5A6AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD513514-B99A-444F-B226-E7EEBAB5A6AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD513514-B99A-444F-B226-E7EEBAB5A6AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0E58116-AAAF-4814-B78F-3DB323A86BFE} = {E280E22A-61AB-48B4-B539-AD5942B9F823}
+		{7534EEE6-9DB7-494C-8683-3BF64BA36C7E} = {B100B1E0-2BCD-41F4-96E1-318058841700}
+		{E351E463-4454-4D7E-9741-6AD0C601CBBA} = {2202C9B9-56A3-4559-A675-0F70650CB227}
+		{5FE9479B-3620-4075-A8C8-45D48F4CE7A8} = {CBB309D6-7B39-4AC6-986C-C45499DB17FC}
+		{2202C9B9-56A3-4559-A675-0F70650CB227} = {CA5747EA-DEE1-4BD7-883A-088B4B4308B1}
+		{CBB309D6-7B39-4AC6-986C-C45499DB17FC} = {CA5747EA-DEE1-4BD7-883A-088B4B4308B1}
+		{33B3D2CB-68EA-4F23-BE28-9EAE280749EB} = {74A8F20E-402E-4FAB-8A0E-392ADA0E6837}
+		{D646755C-76E6-4172-9597-CA4E953068BD} = {2202C9B9-56A3-4559-A675-0F70650CB227}
+		{BD513514-B99A-444F-B226-E7EEBAB5A6AC} = {CBB309D6-7B39-4AC6-986C-C45499DB17FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C3C3175-3BAE-4830-AC8B-E4B892F75399}
+	EndGlobalSection
+EndGlobal
